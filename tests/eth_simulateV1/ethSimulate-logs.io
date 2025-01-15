@@ -1,0 +1,3 @@
+// simulates calls with logs
+>> {"jsonrpc":"2.0","id":1,"method":"eth_simulateV1","params":[{"blockStateCalls":[{"stateOverrides":{"0xc200000000000000000000000000000000000000":{"code":"0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80600080a1600080f3"}},"calls":[{"from":"0xc000000000000000000000000000000000000000","to":"0xc200000000000000000000000000000000000000","input":"0x6057361d0000000000000000000000000000000000000000000000000000000000000005"}]}]},"latest"]}
+<< {"jsonrpc":"2.0","id":1,"error":{"code":-32601,"message":"the method eth_simulateV1 does not exist/is not available"}}
